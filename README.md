@@ -13,10 +13,10 @@ We present training code for multilingual and multimodal emotion recognition. Th
 
 ### Training without preprocessing
 
-To run our code directly, you can download the processed data from [here]. Make sure to change appropriately the "data_path" and "dataset_name" parameters in the run.py file.
+To run our code directly, you can download the processed data from [[here]](https://huggingface.co/datasets/SamsungNLP/SAMSEMO). Make sure to change appropriately the "data_path" and "dataset_name" parameters in the run.py file.
 
 ## Preprocessing
-To run the preprocessing code, you can download the raw data from [here]. Please update appropriately the parameters given in the run.py file.
+To run the preprocessing code, you can download the raw data from [[here]](https://huggingface.co/datasets/SamsungNLP/SAMSEMO). Please update appropriately the parameters given in the run.py file.
 You can also run to get the pickle file with features for all three modalities.
 ```
 python3 preprocessing/prep_raw.py
