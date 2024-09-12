@@ -49,7 +49,8 @@ python3 lightning_train.py --train_from_raw_data True
 During the training, you will see the tables with the results for the training and validation sets. We provide several metrics: accuracy, f1, recall, ROC/AUC and precision. After training, we evaluate the best model on the test set and print the most important metric, which is average f1 (average is taken over f1 for all emotions).
 
 ## Citation
-Please, mention our contribution in your article (code or data) with following citation:
+Please, mention our contribution in your article (code or data) with the following citation:
+```
 @inproceedings{samsemo24_interspeech,
   title     = {SAMSEMO: New dataset for multilingual and multimodal emotion recognition},
   author    = {Pawel Bujnowski and Bartlomiej Kuzma and Bartlomiej Paziewski and Jacek Rutkowski and Joanna Marhula and Zuzanna Bordzicka and Piotr Andruszkiewicz},
@@ -58,3 +59,5 @@ Please, mention our contribution in your article (code or data) with following c
   pages     = {2925--2929},
   doi       = {10.21437/Interspeech.2024-212},
 }
+```
+
