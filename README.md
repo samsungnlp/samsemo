@@ -35,7 +35,7 @@ python3 run.py --train_from_raw_data ""
 
 Example command for run from raw data:
 ```
-python3 lightning_train.py --train_from_raw_data True
+python3 run.py --train_from_raw_data True
 --base_dir [directory_with_raw_files]
 --utt_names_path [dir_with_utterances_(text)]
 --utt_file _split_EN.txt
